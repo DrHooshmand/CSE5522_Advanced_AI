@@ -1,0 +1,124 @@
+Connected to pydev debugger (build 182.4129.34)
+reading SMSSpamCollection
+read 5574 items
+
+first five items:
+('ham', 'Go until jurong point, crazy.. Available only in bugis n great world la e buffet... Cine there got amore wat...')
+('ham', 'Ok lar... Joking wif u oni...')
+('spam', "Free entry in 2 a wkly comp to win FA Cup final tkts 21st May 2005. Text FA to 87121 to receive entry question(std txt rate)T&C's apply 08452810075over18's")
+('ham', 'U dun say so early hor... U c already then say...')
+('ham', "Nah I don't think he goes to usf, he lives around here though")
+
+tokenizing
+
+first five tokenized items:
+('ham', ['Go', 'until', 'jurong', 'point', 'crazy', 'Available', 'only', 'in', 'bugis', 'n', 'great', 'world', 'la', 'e', 'buffet', 'Cine', 'there', 'got', 'amore', 'wat'])
+('ham', ['Ok', 'lar', 'Joking', 'wif', 'u', 'oni'])
+('spam', ['Free', 'entry', 'in', '2', 'a', 'wkly', 'comp', 'to', 'win', 'FA', 'Cup', 'final', 'tkts', '21st', 'May', '2005', 'Text', 'FA', 'to', '87121', 'to', 'receive', 'entry', 'questionstd', 'txt', 'rateTCs', 'apply', '08452810075over18s'])
+('ham', ['U', 'dun', 'say', 'so', 'early', 'hor', 'U', 'c', 'already', 'then', 'say'])
+('ham', ['Nah', 'I', 'dont', 'think', 'he', 'goes', 'to', 'usf', 'he', 'lives', 'around', 'here', 'though'])
+
+making 80/20 train/test split
+train set size: 4459
+test set size: 1115
+
+Test set: 1 P_ham= 0.9999999270841725 P_spam= 7.29158275799711e-08 Predicted tag: ham
+Test set: 2 P_ham= 3.583867442383418e-07 P_spam= 0.9999996416132558 Predicted tag: spam
+Test set: 3 P_ham= 1.0 P_spam= 3.285843418424937e-20 Predicted tag: ham
+Test set: 4 P_ham= 1.0 P_spam= 1.0662550866365998e-24 Predicted tag: ham
+Test set: 5 P_ham= 0.9999999999365274 P_spam= 6.347257878706396e-11 Predicted tag: ham
+Test set: 6 P_ham= 1.0 P_spam= 1.422337558417824e-17 Predicted tag: ham
+Test set: 7 P_ham= 0.9850601101043062 P_spam= 0.014939889895693918 Predicted tag: ham
+Test set: 8 P_ham= 0.06528221291682072 P_spam= 0.9347177870831793 Predicted tag: spam
+Test set: 9 P_ham= 0.999958654295155 P_spam= 4.134570484504819e-05 Predicted tag: ham
+Test set: 10 P_ham= 0.9999999999999715 P_spam= 2.859666612409761e-14 Predicted tag: ham
+Test set: 11 P_ham= 0.99620904486387 P_spam= 0.003790955136130055 Predicted tag: ham
+Test set: 12 P_ham= 1.0 P_spam= 8.713738612540533e-20 Predicted tag: ham
+Test set: 13 P_ham= 0.9999999997444976 P_spam= 2.555023847587832e-10 Predicted tag: ham
+Test set: 14 P_ham= 0.9949316368023455 P_spam= 0.005068363197654577 Predicted tag: ham
+Test set: 15 P_ham= 0.007378771046934628 P_spam= 0.9926212289530654 Predicted tag: spam
+Test set: 16 P_ham= 0.9999483561089918 P_spam= 5.1643891008240307e-05 Predicted tag: ham
+Test set: 17 P_ham= 0.7798235650277865 P_spam= 0.22017643497221348 Predicted tag: ham
+Test set: 18 P_ham= 0.9996251025991011 P_spam= 0.0003748974008989397 Predicted tag: ham
+Test set: 19 P_ham= 0.9999999999706425 P_spam= 2.9357507903257594e-11 Predicted tag: ham
+Test set: 20 P_ham= 0.9972004332836011 P_spam= 0.0027995667163989227 Predicted tag: ham
+Test set: 21 P_ham= 0.9999871970695757 P_spam= 1.2802930424240264e-05 Predicted tag: ham
+Test set: 22 P_ham= 0.8649028714889578 P_spam= 0.1350971285110421 Predicted tag: ham
+Test set: 23 P_ham= 0.999952527363531 P_spam= 4.747263646890611e-05 Predicted tag: ham
+Test set: 24 P_ham= 0.9180468295399874 P_spam= 0.0819531704600126 Predicted tag: ham
+Test set: 25 P_ham= 0.9999999511631321 P_spam= 4.8836867979510836e-08 Predicted tag: ham
+Test set: 26 P_ham= 0.9999999999858463 P_spam= 1.4153776869143819e-11 Predicted tag: ham
+Test set: 27 P_ham= 0.9995096404976754 P_spam= 0.0004903595023246572 Predicted tag: ham
+Test set: 28 P_ham= 0.9975685978830068 P_spam= 0.0024314021169931314 Predicted tag: ham
+Test set: 29 P_ham= 0.9934954698141211 P_spam= 0.0065045301858789725 Predicted tag: ham
+Test set: 30 P_ham= 0.9999649020563093 P_spam= 3.509794369069909e-05 Predicted tag: ham
+Test set: 31 P_ham= 0.9982520133395373 P_spam= 0.0017479866604626232 Predicted tag: ham
+Test set: 32 P_ham= 0.9664006027809343 P_spam= 0.03359939721906567 Predicted tag: ham
+Test set: 33 P_ham= 0.9999999999990518 P_spam= 9.481390978468795e-13 Predicted tag: ham
+Test set: 34 P_ham= 0.9999999999986696 P_spam= 1.3303042924749356e-12 Predicted tag: ham
+Test set: 35 P_ham= 0.9899842656260177 P_spam= 0.010015734373982343 Predicted tag: ham
+Test set: 36 P_ham= 0.9999999519193467 P_spam= 4.808065332052659e-08 Predicted tag: ham
+Test set: 37 P_ham= 0.9999999999941122 P_spam= 5.887766485004471e-12 Predicted tag: ham
+Test set: 38 P_ham= 0.9999999998682985 P_spam= 1.317014569377792e-10 Predicted tag: ham
+Test set: 39 P_ham= 0.9999999999999966 P_spam= 3.412255894637664e-15 Predicted tag: ham
+Test set: 40 P_ham= 0.9965269628910339 P_spam= 0.0034730371089661052 Predicted tag: ham
+Test set: 41 P_ham= 8.019136322833318e-13 P_spam= 0.9999999999991981 Predicted tag: spam
+Test set: 42 P_ham= 3.9025533270219375e-13 P_spam= 0.9999999999996098 Predicted tag: spam
+Test set: 43 P_ham= 0.9590492221008733 P_spam= 0.04095077789912661 Predicted tag: ham
+Test set: 44 P_ham= 0.9998678291629229 P_spam= 0.00013217083707711257 Predicted tag: ham
+Test set: 45 P_ham= 0.9990146304127298 P_spam= 0.0009853695872702277 Predicted tag: ham
+Test set: 46 P_ham= 0.9895389196921701 P_spam= 0.010461080307829947 Predicted tag: ham
+Test set: 47 P_ham= 0.9999999998377608 P_spam= 1.6223922372251285e-10 Predicted tag: ham
+Test set: 48 P_ham= 4.1335276632191685e-05 P_spam= 0.9999586647233678 Predicted tag: spam
+Test set: 49 P_ham= 0.9989007008423035 P_spam= 0.0010992991576963928 Predicted tag: ham
+Test set: 50 P_ham= 1.0 P_spam= 5.105392768834077e-23 Predicted tag: ham
+5.9192825112107625
+7.8923766816143495
+9.865470852017937
+11.838565022421525
+13.811659192825113
+15.784753363228699
+17.757847533632287
+19.730941704035875
+21.704035874439462
+23.67713004484305
+25.650224215246638
+27.623318385650226
+29.596412556053814
+31.569506726457398
+33.54260089686099
+35.51569506726457
+37.488789237668165
+39.46188340807175
+41.43497757847533
+43.408071748878925
+45.38116591928251
+47.3542600896861
+49.327354260089685
+51.300448430493276
+53.27354260089686
+55.24663677130045
+57.219730941704036
+59.19282511210763
+61.165919282511204
+63.139013452914796
+65.11210762331838
+67.08520179372198
+69.05829596412556
+71.03139013452915
+73.00448430493273
+74.97757847533633
+76.95067264573991
+78.9237668161435
+80.89686098654708
+82.86995515695067
+84.84304932735427
+86.81614349775785
+88.78923766816143
+90.76233183856502
+92.73542600896862
+94.7085201793722
+96.68161434977578
+98.65470852017937
+Accuracy is : 98.29596412556054 percent
+done
