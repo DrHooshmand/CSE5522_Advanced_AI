@@ -1,6 +1,6 @@
 # CSE5522 Coursereader: Advanced AI
 
-- CSE5523 Challenge
+- CSE5522 Challenge
 - Shahriar Hooshmand
 - Ohio State University, Columbus, OH
 
